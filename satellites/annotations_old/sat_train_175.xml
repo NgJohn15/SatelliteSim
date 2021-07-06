@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>train</folder>
+	<filename>sat_train_175.png</filename>
+	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteRender\images\train\sat_train_175.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2400</width>
+		<height>1144</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>satellite</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>723</xmin>
+			<ymin>128</ymin>
+			<xmax>1594</xmax>
+			<ymax>884</ymax>
+		</bndbox>
+	</object>
+</annotation>
