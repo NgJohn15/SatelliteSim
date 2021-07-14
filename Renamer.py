@@ -1,8 +1,11 @@
 import os
+count = 0
+directory = "pannel/ports/validation/images/temp"
 
-filepath = "images/train"
-for i in range(0, 68):
-    x = f"{i:05d}"
-    src = os.path.sep.join([filepath, "HighresScreenshot"+x+".png"])
-    if os.path.exists(src):
-        os.rename(src, os.path.sep.join([filepath, "sat_train_"+str(197+i)+".png"]))
+new_name = "img"
+for filename in os.listdir(directory):
+    if filename.endswith(".jpg") or filename.endswith(".png"):
+        print(os.path.join(directory, filename))
+        x = int(filename[3:-4])
+        print(x)
+        os.rename(os.path.join(directory, filename), os.path.join(directory, new_name+str(x)+".png"))
