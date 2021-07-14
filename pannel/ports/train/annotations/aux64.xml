@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>aux_images</folder>
+	<filename>aux64.png</filename>
+	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\train\images\aux_images\aux64.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2400</width>
+		<height>1144</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>aux</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1175</xmin>
+			<ymin>415</ymin>
+			<xmax>1314</xmax>
+			<ymax>555</ymax>
+		</bndbox>
+	</object>
+</annotation>

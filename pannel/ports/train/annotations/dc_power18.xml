@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>dc_power_images</folder>
+	<filename>dc_power18.png</filename>
+	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\train\images\dc_power_images\dc_power18.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2400</width>
+		<height>1144</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>dc</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1232</xmin>
+			<ymin>464</ymin>
+			<xmax>1445</xmax>
+			<ymax>684</ymax>
+		</bndbox>
+	</object>
+</annotation>

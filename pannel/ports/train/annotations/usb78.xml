@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>usb_images</folder>
+	<filename>usb78.png</filename>
+	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\train\images\usb_images\usb78.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2400</width>
+		<height>1144</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>usb</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>959</xmin>
+			<ymin>485</ymin>
+			<xmax>1247</xmax>
+			<ymax>735</ymax>
+		</bndbox>
+	</object>
+</annotation>
