@@ -1,0 +1,26 @@
+<annotation verified="yes">
+	<folder>temp</folder>
+	<filename>img52.png</filename>
+	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\validation\images\temp\img52.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2400</width>
+		<height>1144</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>aux</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>947</xmin>
+			<ymin>575</ymin>
+			<xmax>1239</xmax>
+			<ymax>882</ymax>
+		</bndbox>
+	</object>
+</annotation>
