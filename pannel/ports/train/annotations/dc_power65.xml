@@ -1,7 +1,7 @@
 <annotation verified="yes">
-	<folder>dc_power_images</folder>
+	<folder>images</folder>
 	<filename>dc_power65.png</filename>
-	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\train\images\dc_power_images\dc_power65.png</path>
+	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\train\images\dc_power65.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -21,6 +21,30 @@
 			<ymin>623</ymin>
 			<xmax>1368</xmax>
 			<ymax>824</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>usb</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>630</xmin>
+			<ymin>586</ymin>
+			<xmax>916</xmax>
+			<ymax>866</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>aux</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1260</xmin>
+			<ymin>1</ymin>
+			<xmax>1583</xmax>
+			<ymax>202</ymax>
 		</bndbox>
 	</object>
 </annotation>

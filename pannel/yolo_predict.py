@@ -1,7 +1,7 @@
 from imageai.Detection.Custom import CustomObjectDetection
 import os
 
-model_name = "ports/models/detection_model-ex-012--loss-0009.301.h5"
+model_name = "ports/models/detection_model-ex-002--loss-0019.715.h5"
 execution_path = os.getcwd()
 
 detector = CustomObjectDetection()
