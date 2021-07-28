@@ -1,7 +1,7 @@
 from imageai.Detection.Custom import CustomObjectDetection
 import os
 
-model_name = "ports/models/detection_model-ex-005--loss-0018.096.h5"
+model_name = "ports/models/detection_model-ex-002--loss-0019.782.h5"
 execution_path = os.getcwd()
 
 detector = CustomObjectDetection()
@@ -20,7 +20,7 @@ for imagePath in imagePaths:
     test_img = imagePath
     detections = detector.detectObjectsFromImage(input_image=os.path.join(execution_path, filepath + test_img),
                                                  output_image_path=os.path.join(execution_path,
-                                                filepath+"/result/" + test_img),
+                                                filepath+"/result/newmodel/" + test_img),
                                                  minimum_percentage_probability=55)
     print(imagePath)
     for detection in detections:

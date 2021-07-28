@@ -1,7 +1,7 @@
 <annotation verified="yes">
-	<folder>temp</folder>
+	<folder>images</folder>
 	<filename>img2.png</filename>
-	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\validation\images\temp\img2.png</path>
+	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\validation\images\img2.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -33,6 +33,18 @@
 			<ymin>548</ymin>
 			<xmax>1717</xmax>
 			<ymax>709</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>aux</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1769</xmin>
+			<ymin>1</ymin>
+			<xmax>2129</xmax>
+			<ymax>168</ymax>
 		</bndbox>
 	</object>
 </annotation>

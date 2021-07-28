@@ -1,3 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 pannel/dataset/panel_detector.h5 filter=lfs diff=lfs merge=lfs -text
+pannel/ports/models/detection_model-ex-005--loss-0018.096.h5 filter=lfs diff=lfs merge=lfs -text

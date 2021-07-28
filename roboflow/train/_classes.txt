@@ -1,0 +1,4 @@
+aux
+dc
+satellite
+usb

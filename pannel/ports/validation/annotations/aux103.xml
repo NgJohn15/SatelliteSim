@@ -1,7 +1,7 @@
 <annotation verified="yes">
-	<folder>aux_images</folder>
+	<folder>images</folder>
 	<filename>aux103.png</filename>
-	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\train\images\aux_images\aux103.png</path>
+	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\validation\images\aux103.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -21,6 +21,30 @@
 			<ymin>378</ymin>
 			<xmax>1523</xmax>
 			<ymax>646</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>usb</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>594</xmin>
+			<ymin>990</ymin>
+			<xmax>892</xmax>
+			<ymax>1144</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>dc</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1103</xmin>
+			<ymin>1033</ymin>
+			<xmax>1321</xmax>
+			<ymax>1144</ymax>
 		</bndbox>
 	</object>
 </annotation>

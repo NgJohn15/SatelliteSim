@@ -1,7 +1,7 @@
 <annotation verified="yes">
-	<folder>usb_images</folder>
+	<folder>images</folder>
 	<filename>usb96.png</filename>
-	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\train\images\usb_images\usb96.png</path>
+	<path>C:\Users\ngjoh\Google Drive\AFRL\SatelliteSim\pannel\ports\validation\images\usb96.png</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -12,7 +12,7 @@
 	</size>
 	<segmented>0</segmented>
 	<object>
-		<name>dw</name>
+		<name>usb</name>
 		<pose>Unspecified</pose>
 		<truncated>0</truncated>
 		<difficult>0</difficult>
@@ -21,6 +21,30 @@
 			<ymin>432</ymin>
 			<xmax>1408</xmax>
 			<ymax>706</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>dc</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1596</xmin>
+			<ymin>477</ymin>
+			<xmax>1756</xmax>
+			<ymax>661</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>aux</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1700</xmin>
+			<ymin>1</ymin>
+			<xmax>1945</xmax>
+			<ymax>128</ymax>
 		</bndbox>
 	</object>
 </annotation>
