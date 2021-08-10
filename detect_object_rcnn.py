@@ -90,7 +90,7 @@ for (box, prob) in zip(boxes, proba):
     cv2.rectangle(clone, (startX, startY), (endX, endY),
                   (0, 255, 0), 2)
     y = startY - 10 if startY - 10 > 10 else startY + 10
-    text = "Raccoon: {:.2f}%".format(prob * 100)
+    text = "Satellite: {:.2f}%".format(prob * 100)
     cv2.putText(clone, text, (startX, y),
                 cv2.FONT_HERSHEY_SIMPLEX, 0.45, (0, 255, 0), 2)
 # show the output after *before* running NMS
