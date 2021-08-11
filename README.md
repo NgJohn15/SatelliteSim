@@ -24,7 +24,7 @@ Neural networks to localize satellites and port components.
 ### R-CNN
 python3 detect_object_rcc.py -i <file/path/to/image>
 
-This is a adjusted detector from DatTran's raccoon detector. I changed the dataset to look for satellites instead.
+This is an adjusted detector from DatTran's raccoon detector. I changed the dataset to look for satellites instead.
 
 You may need to check the config.py to see if your files are in the right directories
 
