@@ -22,7 +22,9 @@ Neural networks to localize satellites and port components.
 
 ## How to Run Models
 ### R-CNN
-python3 detect_object_rcc.py -i <file/path/to/image>
+
+> python3 detect_object_rcc.py -i <file/path/to/image>
+
 
 This is an adjusted detector from DatTran's raccoon detector. I changed the dataset to look for satellites instead.
 
@@ -31,30 +33,32 @@ You may need to check the config.py to see if your files are in the right direct
 ### YOLOv3
 You must use Python 3.7
 
-python yolo_predict.py
+> python yolo_predict.py
 
 ### YOLOv4
 Python 3.9 is recommended for best performance.
 
-python3 pytorch-detect-object.py
+> python3 pytorch-detect-object.py
 
 All the customization for image input is in the file. Image output is handled by pytorch-YOLOv4/models.py file.
 
 
 ## How to Train Models
 ### R-CNN
-* python3 fine_tune_rcnn.py
+> python3 fine_tune_rcnn.py
 
 This will train the rcnn against the settings preset in the config.py file.
 
 ### YOLOv3
-* python3(3.7) pannel/train.py 
+> python3 pannel/train.py 
+
+Use python 3.7, dependencies require python 3.7
 
 This will train the model with the settings in config.py file.
 
 
 ### YOLOv4
-* python3 pytorch-YOLOv4/train.py <config.cfg> <Yolov4.conv.137.pth>
+> python3 pytorch-YOLOv4/train.py <config.cfg> <Yolov4.conv.137.pth>
 
 This will train the model given the configurations in the cfg file with a pretrained model from pretrained mode.conv.137
 
