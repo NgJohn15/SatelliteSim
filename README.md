@@ -60,7 +60,7 @@ This will train the model with the settings in config.py file.
 ### YOLOv4
 > python3 pytorch-YOLOv4/train.py <config.cfg> <Yolov4.conv.137.pth>
 
-This will train the model given the configurations in the cfg file with a pretrained model from pretrained mode.conv.137
+This will train the model given the configurations in the cfg file with a pretrained model from pretrained mode.conv.137. The README in the pytorch-YOLOv4 folder has a very detailed explanation for setting up and running the models. Take note you will need to instal specific libraries from the requirements.txt file, the README explains how to.
 
 
 ## Annotating Datasets
