@@ -14,8 +14,3 @@ print(img_path)
 # run our model with the weights
 print("python pytorch-YOLOv4/models.py 4 " + weights + " " + img_path + " " + test_dir)
 os.system("python pytorch-YOLOv4/models.py 4 " + weights + " " + img_path + " " + test_dir)
-# visualize inference
-
-# from IPython.display import Image/
-
-# Image('predictions.jpg')
